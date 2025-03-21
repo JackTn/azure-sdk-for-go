@@ -52,6 +52,7 @@ func Command() *cobra.Command {
 
 func execute(inputPath, outputPath, goVersion string) error {
 	log.Printf("Reading generate input file from '%s'...", inputPath)
+	fmt.Errorf("test without prefiex [error]")
 	input, err := pipeline.ReadInput(inputPath)
 	if err != nil {
 		return fmt.Errorf("cannot read generate input: %+v", err)
