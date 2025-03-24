@@ -10,6 +10,7 @@
         "scriptWarning": "^\\[WARNING\\]"
       },
       "stdout": {
+        "scriptError": "^\\[ERROR\\]",
         "showInComment": "(Start to|\\[ERROR\\]).*"
       }
     }
